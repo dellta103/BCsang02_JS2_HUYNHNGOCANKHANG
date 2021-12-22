@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <div class="bai1">
+      <h2>Bài 1/ Tính lương nhân viên:</h2>
+      <div class="card">
+        <div class="card-header">TÍNH TIỀN LƯƠNG</div>
+        <div class="card-body">
+          <h5 class="card-title">Nhập vào số ngày làm:</h5>
+          <input type="text" placeholder="Số ngày làm" id="inputSoNgay" />
+
+          <br />
+          <a href="#" class="btn btn-primary" onclick="tinhtien()">TÍNH NÀO!</a>
+          <p id="ketqua1"></p>
+        </div>
+      </div>
+    </div>
+    <div class="bai2">
+      <h2>Bài 2/ Tính giá trị trung bình:</h2>
+      <div class="card">
+        <div class="card-header">TÍNH GIÁ TRỊ TRUNG BÌNH</div>
+        <div class="card-body">
+          <h5 class="card-title">Nhập vào 5 số thực</h5>
+          <input type="text" placeholder="Nhập số thứ 1" id="input1" />
+          <input type="text" placeholder="Nhập số thứ 2" id="input2" />
+          <input type="text" placeholder="Nhập số thứ 3" id="input3" />
+          <input type="text" placeholder="Nhập số thứ 4" id="input4" />
+          <input type="text" placeholder="Nhập số thứ 5" id="input5" />
+
+          <br />
+          <a href="#" class="btn btn-primary" onclick="tinhtrungbinh()"
+            >TÍNH NÀO!</a
+          >
+          <p id="ketqua2"></p>
+        </div>
+      </div>
+    </div>
+    <div class="bai3">
+      <h2>Bài 3/ Quy đổi tiền:</h2>
+      <div class="card">
+        <div class="card-header">QUY ĐỔI TIỀN</div>
+        <div class="card-body">
+          <h5 class="card-title">Nhập vào số tiền USD</h5>
+          <input type="text" placeholder="Nhập số tiền USD" id="usd" /><span
+            >$</span
+          >
+
+          <br />
+          <a href="#" class="btn btn-primary" onclick="tinhusd()">TÍNH NÀO!</a>
+          <p id="ketqua3"></p>
+        </div>
+      </div>
+    </div>
+    <div class="bai4">
+      <h2>Bài 4/ Tính diện tích, chu vi hình chữ nhật:</h2>
+      <div class="card">
+        <div class="card-header">TÍNH CHU VI, DIỆN TÍCH</div>
+        <div class="card-body">
+          <h5 class="card-title">Nhập vào 2 cạnh hình chữ nhật</h5>
+          <input type="text" placeholder="Nhập cạnh 1" id="c1" />
+          <input type="text" placeholder="Nhập cạnh 2" id="c2" />
+
+          <br />
+          <a href="#" class="btn btn-primary" onclick="tinhchuvi()"
+            >TÍNH CHU VI!</a
+          >
+          <p id="chuvi"></p>
+          <a href="#" class="btn btn-primary" onclick="tinhdientich()"
+            >TÍNH DIỆN TÍCH!</a
+          >
+          <p id="dientich"></p>
+        </div>
+      </div>
+    </div>
+    <div class="bai5">
+      <h2>Bài 5/ Tính tổng 2 ký số:</h2>
+      <div class="card">
+        <div class="card-header">TÍNH TỔNG 2 KÝ SỐ</div>
+        <div class="card-body">
+          <h5 class="card-title">Nhập vào 1 số có 2 chữ số</h5>
+          <input type="text" placeholder="Nhập số" id="so" />
+
+          <br />
+          <a href="#" class="btn btn-primary" onclick="tinhso()">TÍNH NÀO!</a>
+          <p id="ketqua5"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bai1.js"></script>
+    <script src="../js/bai2.js"></script>
+    <script src="../js/bai3.js"></script>
+    <script src="../js/bai4.js"></script>
+    <script src="../js/bai5.js"></script>
+  </body>
+</html>
